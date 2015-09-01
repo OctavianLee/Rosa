@@ -12,3 +12,8 @@ Constants
 ----------
 .. automodule:: rosa.constants
     :members:
+
+Decorators
+----------
+.. automodule:: rosa.decos
+    :members:
