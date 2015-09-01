@@ -6,12 +6,17 @@
 Welcome to Rosa's documentation!
 ================================
 
+Rosa is a pytest extension suites. It adds some basic tools to help pytest
+go.
+
+Some ideas are gained from Nose. 
+
 Contents:
 
 .. toctree::
    :maxdepth: 2
 
-   asserts
+   apis
 
 
 
