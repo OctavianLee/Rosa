@@ -7,9 +7,9 @@ Basic Assert Suites.
 def eq_(left, right, msg=None):
     """Assert two elements are equal.
 
-    :param: left: the left element in the assert.
-    :param: right: the right element in the assert.
-    :param: msg: the message of assert.
+    :param left: the left element in the assert.
+    :param right: the right element in the assert.
+    :param msg: the message of assert.
 
     :except: AssertionError.
     """
@@ -20,9 +20,9 @@ def eq_(left, right, msg=None):
 def neq_(left, right, msg=None):
     """Assert two elements are not equal.
 
-    :param: left: the left element in the assert.
-    :param: right: the right element in the assert.
-    :param: msg: the message of assert.
+    :param left: the left element in the assert.
+    :param right: the right element in the assert.
+    :param msg: the message of assert.
 
     :except: AssertionError.
     """
@@ -33,9 +33,9 @@ def neq_(left, right, msg=None):
 def in_(left, right, msg=None):
     """Assert the left element is in the right.
 
-    :param: left: the left element in the assert.
-    :param: right: the right element in the assert.
-    :param: msg: the message of assert.
+    :param left: the left element in the assert.
+    :param right: the right element in the assert.
+    :param msg: the message of assert.
 
     :except: AssertionError.
     """
@@ -46,9 +46,9 @@ def in_(left, right, msg=None):
 def nin_(left, right, msg=None):
     """Assert the left element is not in the right.
 
-    :param: left: the left element in the assert.
-    :param: right: the right element in the assert.
-    :param: msg: the message of assert.
+    :param left: the left element in the assert.
+    :param right: the right element in the assert.
+    :param msg: the message of assert.
 
     :except: AssertionError.
     """
@@ -59,9 +59,9 @@ def nin_(left, right, msg=None):
 def is_ins(left, right, msg=None):
     """Assert the left element is an instance of the right.
 
-    :param: left: the left element in the assert.
-    :param: right: the right element in the assert.
-    :param: msg: the message of assert.
+    :param left: the left element in the assert.
+    :param right: the right element in the assert.
+    :param msg: the message of assert.
 
     :except: AssertionError.
     """
@@ -72,9 +72,9 @@ def is_ins(left, right, msg=None):
 def eq_obj(left, right, msg=None):
     """Assert the value of the left object is equal to the right.
 
-    :param: left: the left element in the assert.
-    :param: right: the right element in the assert.
-    :param: msg: the message of assert.
+    :param left: the left element in the assert.
+    :param right: the right element in the assert.
+    :param msg: the message of assert.
 
     :except: AssertionError.
     """
